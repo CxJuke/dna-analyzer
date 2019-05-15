@@ -1,15 +1,29 @@
-#basic features
-DNA Analysis 
-•Basic DNA tool(s), i.e. reverse complementing, translation•Random DNA/RNA/peptide oligomer generator
+# dna-analyzer
 
-•Pattern sequence searcher
+## Project setup
+```
+npm install
+```
 
-•Restriction cutter (involves the use of an enzyme DB)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-•Prokaryotic ORF finder
+### Compiles and minifies for production
+```
+npm run build
+```
 
-•Random DNA/RNA mutation generator
+### Run your tests
+```
+npm run test
+```
 
-•Melting temperature (TM) or PCR annealing temperature calculator
-## future?
-•Advanced:•A guide RNA (gRNA or sgRNA) generator for CRISPR-Cas9 •Example: https://www.atum.bio/eCommerce/cas9/•CRISPR-Cas explanation: https://www.addgene.org/crispr/guide/
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
